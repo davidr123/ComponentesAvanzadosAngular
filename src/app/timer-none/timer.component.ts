@@ -7,7 +7,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './timer.component.html',
   styleUrls: ['./timer.component.scss'],
   providers:[TimerService],
-   changeDetection: ChangeDetectionStrategy.OnPush,
+  //  changeDetection: ChangeDetectionStrategy.OnPush,
    encapsulation: ViewEncapsulation.None
 })
 export class TimerNoneComponent implements OnInit, OnDestroy {
